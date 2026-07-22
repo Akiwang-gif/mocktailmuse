@@ -5,17 +5,17 @@ type NavigationLink = {
 
 export const siteConfig = {
   name: "Mocktail Muse",
-  domain: "mocktailmuse.club",
-  url: "https://mocktailmuse.club",
+  domain: "mocktailmuse.net",
+  url: "https://mocktailmuse.net",
   tagline: "Elevated alcohol-free drinks for every occasion",
   description:
     "Mocktail Muse is an editorial guide to elegant alcohol-free drinks, refined flavor pairings, and modern entertaining.",
   defaultSeoTitle: "Mocktail Muse - Elevated Alcohol-Free Drinks",
   defaultSeoDescription:
     "Discover elegant mocktail recipes, ingredient ideas, flavor guides, and alcohol-free drink inspiration for every occasion.",
-  contactEmail: "hello@mocktailmuse.club",
-  supportEmail: "hello@mocktailmuse.club",
-  legalEmail: "legal@mocktailmuse.club",
+  contactEmail: "hello@mocktailmuse.net",
+  supportEmail: "hello@mocktailmuse.net",
+  legalEmail: "legal@mocktailmuse.net",
   teamName: "Mocktail Muse Team",
   editorialTeamName: "Mocktail Muse Editorial Team",
   operator: {

@@ -25,7 +25,7 @@
 		}
 	],
 	"vars": {
-		"NEXT_PUBLIC_SITE_URL": "https://mocktailmuse.club",
-		"R2_PUBLIC_BASE_URL": "https://mocktailmuse.club/media"
+		"NEXT_PUBLIC_SITE_URL": "https://mocktailmuse.net",
+		"R2_PUBLIC_BASE_URL": "https://mocktailmuse.net/media"
 	}
 }
