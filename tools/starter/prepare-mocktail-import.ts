@@ -33,6 +33,18 @@ const featuredSlugs = new Set([
   "mocktail-flavor-personality-quiz",
 ]);
 
+const categoryOrder = [
+  "core-mocktail-recipes",
+  "mocktail-guides",
+  "sober-curious-lifestyle",
+  "mocktail-gifts-shopping",
+  "mocktail-faq",
+  "mocktail-fun-interactive",
+];
+
+const publishStart = Date.UTC(2026, 5, 1);
+const publishEnd = Date.UTC(2026, 6, 22);
+
 const knownHeadingTexts = new Set([
   "Lead",
   "Preparation details",
@@ -87,6 +99,33 @@ function listPublishFiles(root: string): string[] {
     if (entry.isFile() && entry.name.endsWith(".publish.txt")) output.push(absolute);
   }
   return output.sort();
+}
+
+function interleaveByCategory(files: string[]) {
+  const groups = new Map<string, string[]>();
+  for (const file of files) {
+    const batchDir = path.basename(path.dirname(path.dirname(file)));
+    const baseBatch = batchDir.replace(/-\d{4}-\d{2}-\d{2}$/, "");
+    const list = groups.get(baseBatch) ?? [];
+    list.push(file);
+    groups.set(baseBatch, list);
+  }
+
+  const output: string[] = [];
+  const maxLength = Math.max(...Array.from(groups.values(), (group) => group.length));
+  for (let index = 0; index < maxLength; index += 1) {
+    for (const category of categoryOrder) {
+      const file = groups.get(category)?.[index];
+      if (file) output.push(file);
+    }
+  }
+  return output;
+}
+
+function distributedPublishDate(index: number, total: number) {
+  if (total <= 1) return new Date(publishEnd).toISOString().slice(0, 10);
+  const timestamp = publishStart + Math.round(((publishEnd - publishStart) * index) / (total - 1));
+  return new Date(timestamp).toISOString().slice(0, 10);
 }
 
 function meta(lines: string[], key: string) {
@@ -159,16 +198,16 @@ function prepare() {
   if (existsSync(targetRoot)) rmSync(targetRoot, { recursive: true, force: true });
   mkdirSync(targetRoot, { recursive: true });
 
-  const files = listPublishFiles(sourceRoot);
+  const files = interleaveByCategory(listPublishFiles(sourceRoot));
   if (files.length === 0) throw new Error(`No .publish.txt files found in ${sourceRoot}`);
 
-  for (const file of files) {
+  for (const [index, file] of files.entries()) {
     const articleDir = path.dirname(file);
     const batchDir = path.basename(path.dirname(articleDir));
     const lines = readFileSync(file, "utf8").split(/\r?\n/);
     const title = meta(lines, "Title");
     const slug = meta(lines, "Slug");
-    const date = meta(lines, "Date");
+    const date = distributedPublishDate(index, files.length);
     const categorySlug = categoryFromBatch(batchDir);
     if (!title || !slug || !date) throw new Error(`Missing Title, Slug, or Date in ${file}`);
 

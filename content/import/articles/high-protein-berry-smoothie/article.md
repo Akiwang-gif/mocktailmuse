@@ -5,7 +5,7 @@ summary: "This high protein berry smoothie for breakfast is built for a real hom
 categorySlug: recipes
 tags: ["refreshing", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-01T00:00:00.000Z
 cover: images/high-protein-berry-smoothie-cover.png
 seoTitle: "High Protein Berry Smoothie for Breakfast"
 seoDescription: "This high protein berry smoothie for breakfast is built for a real home kitchen: a short ingredient list, a clear method, and enough flexibility to make the drink feel personal. The goal is a glass that looks inviting..."

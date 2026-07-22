@@ -42,7 +42,7 @@ export function ArticleHero({ title, summary, category, image, meta = [], tags =
       </div>
       {image ? (
         <div className="article-cover-frame article-cover">
-          <Image className="cover" src={image.src} alt={image.alt} width={1280} height={820} priority />
+          <Image className="cover" src={image.src} alt={image.alt} width={1280} height={820} priority unoptimized />
         </div>
       ) : null}
     </header>

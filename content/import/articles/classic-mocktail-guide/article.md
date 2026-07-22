@@ -5,7 +5,7 @@ summary: "This classic mocktail guide: drinks worth knowing gives readers a prac
 categorySlug: flavor-guides
 tags: ["citrus", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-13T00:00:00.000Z
 cover: images/classic-mocktail-guide-cover.png
 seoTitle: "Classic Mocktail Guide: Drinks Worth Knowing"
 seoDescription: "This classic mocktail guide: drinks worth knowing gives readers a practical path from curiosity to confident choices. The point is not to collect more equipment or memorise a long list of rules. It is to understand th..."

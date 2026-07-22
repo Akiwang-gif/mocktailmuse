@@ -5,7 +5,7 @@ summary: "This popular mocktail types to try at home answers a basic question wi
 categorySlug: essentials
 tags: ["classic", "healthy"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-07-09T00:00:00.000Z
 cover: images/popular-mocktail-types-cover.png
 seoTitle: "Popular Mocktail Types to Try at Home"
 seoDescription: "This popular mocktail types to try at home answers a basic question without making the topic feel basic. Clear language matters in alcohol-free drinks, where labels, menus, and social expectations can mean different t..."

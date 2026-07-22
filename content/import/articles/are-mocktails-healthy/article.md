@@ -5,7 +5,7 @@ summary: "This are mocktails healthy? a practical way to think about it answers 
 categorySlug: essentials
 tags: ["classic", "healthy"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-08T00:00:00.000Z
 cover: images/are-mocktails-healthy-cover.png
 seoTitle: "Are Mocktails Healthy? A Practical Way to Think About It"
 seoDescription: "This are mocktails healthy? a practical way to think about it answers a basic question without making the topic feel basic. Clear language matters in alcohol-free drinks, where labels, menus, and social expectations c..."

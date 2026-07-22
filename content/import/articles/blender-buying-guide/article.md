@@ -5,7 +5,7 @@ summary: "This home blender buying guide for smooth drinks is designed to help r
 categorySlug: collections
 tags: ["party-drinks", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-06T00:00:00.000Z
 cover: images/blender-buying-guide-cover.png
 seoTitle: "Home Blender Buying Guide for Smooth Drinks"
 seoDescription: "This home blender buying guide for smooth drinks is designed to help readers buy with purpose. A useful purchase solves a recurring problem, fits the available space, and feels easy enough to use on an ordinary weekda..."

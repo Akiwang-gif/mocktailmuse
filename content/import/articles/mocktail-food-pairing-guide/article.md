@@ -5,7 +5,7 @@ summary: "This mocktail food pairing guide for easy hosting gives readers a prac
 categorySlug: flavor-guides
 tags: ["citrus", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-07-04T00:00:00.000Z
 cover: images/mocktail-food-pairing-guide-cover.png
 seoTitle: "Mocktail Food Pairing Guide for Easy Hosting"
 seoDescription: "This mocktail food pairing guide for easy hosting gives readers a practical path from curiosity to confident choices. The point is not to collect more equipment or memorise a long list of rules. It is to understand th..."

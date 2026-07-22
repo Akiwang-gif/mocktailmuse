@@ -42,6 +42,7 @@ export function EditorialArticleCard({
             src={image.src}
             alt={image.alt}
             fill
+            unoptimized
             sizes={variant === "feature" ? "(max-width: 900px) 100vw, 58vw" : "(max-width: 900px) 100vw, 34vw"}
           />
         </Link>

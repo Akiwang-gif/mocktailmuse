@@ -5,7 +5,7 @@ summary: "This mindful drinking practice without all-or-nothing rules is about m
 categorySlug: lifestyle
 tags: ["healthy", "party-drinks"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-25T00:00:00.000Z
 cover: images/mindful-drinking-practice-cover.png
 seoTitle: "Mindful Drinking Practice Without All-or-Nothing Rules"
 seoDescription: "This mindful drinking practice without all-or-nothing rules is about making room for choice, not performing perfection. A sober curious practice can be a one-night experiment, a season, a health conversation, or a las..."

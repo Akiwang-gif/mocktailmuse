@@ -5,7 +5,7 @@ summary: "This coffee shop copycat drink guide for home gives readers a practica
 categorySlug: flavor-guides
 tags: ["citrus", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-23T00:00:00.000Z
 cover: images/coffee-shop-copycat-drink-guide-cover.png
 seoTitle: "Coffee Shop Copycat Drink Guide for Home"
 seoDescription: "This coffee shop copycat drink guide for home gives readers a practical path from curiosity to confident choices. The point is not to collect more equipment or memorise a long list of rules. It is to understand the fe..."

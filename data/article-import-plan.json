@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-22T08:30:06.217Z",
-  "dryRun": false,
-  "sourceDir": "E:\\MocktailMuse\\content\\import\\batches\\experiences",
+  "generatedAt": "2026-07-22T10:53:36.150Z",
+  "dryRun": true,
+  "sourceDir": "E:\\MocktailMuse\\content\\import\\articles",
   "databaseName": "mocktailmuse-db",
   "bucketName": "mocktailmuse-media",
-  "r2PublicBaseUrl": "https://mocktailmuse.club/media",
+  "r2PublicBaseUrl": "https://mocktailmuse.net/media",
   "articles": [
     {
       "title": "Alcohol Free Celebration Ideas for Any Milestone",
@@ -21,6 +21,188 @@
       ]
     },
     {
+      "title": "Alcohol Free Hosting Guide for Relaxed Gatherings",
+      "slug": "alcohol-free-hosting-guide",
+      "status": "published",
+      "categorySlug": "lifestyle",
+      "tagSlugs": [
+        "healthy",
+        "party-drinks"
+      ],
+      "coverObjectKey": "articles/alcohol-free-hosting-guide/cover/alcohol-free-hosting-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/alcohol-free-hosting-guide/images/alcohol-free-hosting-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Are Mocktails Healthy? A Practical Way to Think About It",
+      "slug": "are-mocktails-healthy",
+      "status": "published",
+      "categorySlug": "essentials",
+      "tagSlugs": [
+        "classic",
+        "healthy"
+      ],
+      "coverObjectKey": "articles/are-mocktails-healthy/cover/are-mocktails-healthy-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/are-mocktails-healthy/images/are-mocktails-healthy-steps.png"
+      ]
+    },
+    {
+      "title": "Beginner Mocktail Tools That Earn Their Space",
+      "slug": "beginner-mocktail-tools",
+      "status": "published",
+      "categorySlug": "flavor-guides",
+      "tagSlugs": [
+        "citrus",
+        "classic"
+      ],
+      "coverObjectKey": "articles/beginner-mocktail-tools/cover/beginner-mocktail-tools-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/beginner-mocktail-tools/images/beginner-mocktail-tools-steps.png"
+      ]
+    },
+    {
+      "title": "Home Blender Buying Guide for Smooth Drinks",
+      "slug": "blender-buying-guide",
+      "status": "published",
+      "categorySlug": "collections",
+      "tagSlugs": [
+        "party-drinks",
+        "classic"
+      ],
+      "coverObjectKey": "articles/blender-buying-guide/cover/blender-buying-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/blender-buying-guide/images/blender-buying-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Building Sober Curious Routines That Feel Like You",
+      "slug": "building-sober-curious-routines",
+      "status": "published",
+      "categorySlug": "lifestyle",
+      "tagSlugs": [
+        "healthy",
+        "party-drinks"
+      ],
+      "coverObjectKey": "articles/building-sober-curious-routines/cover/building-sober-curious-routines-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/building-sober-curious-routines/images/building-sober-curious-routines-steps.png"
+      ]
+    },
+    {
+      "title": "Classic Mocktail Guide: Drinks Worth Knowing",
+      "slug": "classic-mocktail-guide",
+      "status": "published",
+      "categorySlug": "flavor-guides",
+      "tagSlugs": [
+        "citrus",
+        "classic"
+      ],
+      "coverObjectKey": "articles/classic-mocktail-guide/cover/classic-mocktail-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/classic-mocktail-guide/images/classic-mocktail-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Coffee Shop Copycat Drink Guide for Home",
+      "slug": "coffee-shop-copycat-drink-guide",
+      "status": "published",
+      "categorySlug": "flavor-guides",
+      "tagSlugs": [
+        "citrus",
+        "classic"
+      ],
+      "coverObjectKey": "articles/coffee-shop-copycat-drink-guide/cover/coffee-shop-copycat-drink-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/coffee-shop-copycat-drink-guide/images/coffee-shop-copycat-drink-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Coffee and Tea Subscription Gift Guide",
+      "slug": "coffee-tea-subscription-gift-guide",
+      "status": "published",
+      "categorySlug": "collections",
+      "tagSlugs": [
+        "party-drinks",
+        "classic"
+      ],
+      "coverObjectKey": "articles/coffee-tea-subscription-gift-guide/cover/coffee-tea-subscription-gift-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/coffee-tea-subscription-gift-guide/images/coffee-tea-subscription-gift-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Do Mocktails Have Alcohol? What to Check",
+      "slug": "do-mocktails-have-alcohol",
+      "status": "published",
+      "categorySlug": "essentials",
+      "tagSlugs": [
+        "classic",
+        "healthy"
+      ],
+      "coverObjectKey": "articles/do-mocktails-have-alcohol/cover/do-mocktails-have-alcohol-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/do-mocktails-have-alcohol/images/do-mocktails-have-alcohol-steps.png"
+      ]
+    },
+    {
+      "title": "High Protein Berry Smoothie for Breakfast",
+      "slug": "high-protein-berry-smoothie",
+      "status": "published",
+      "categorySlug": "recipes",
+      "tagSlugs": [
+        "refreshing",
+        "classic"
+      ],
+      "coverObjectKey": "articles/high-protein-berry-smoothie/cover/high-protein-berry-smoothie-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/high-protein-berry-smoothie/images/high-protein-berry-smoothie-steps.png"
+      ]
+    },
+    {
+      "title": "Juicer Buying Guide for Fresh Citrus Drinks",
+      "slug": "juicer-buying-guide",
+      "status": "published",
+      "categorySlug": "collections",
+      "tagSlugs": [
+        "party-drinks",
+        "classic"
+      ],
+      "coverObjectKey": "articles/juicer-buying-guide/cover/juicer-buying-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/juicer-buying-guide/images/juicer-buying-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Midnight Millionaire Mocktail With Blackberry and Lime",
+      "slug": "midnight-millionaire-mocktail",
+      "status": "published",
+      "categorySlug": "recipes",
+      "tagSlugs": [
+        "refreshing",
+        "classic"
+      ],
+      "coverObjectKey": "articles/midnight-millionaire-mocktail/cover/midnight-millionaire-mocktail-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/midnight-millionaire-mocktail/images/midnight-millionaire-mocktail-steps.png"
+      ]
+    },
+    {
+      "title": "Mindful Drinking Practice Without All-or-Nothing Rules",
+      "slug": "mindful-drinking-practice",
+      "status": "published",
+      "categorySlug": "lifestyle",
+      "tagSlugs": [
+        "healthy",
+        "party-drinks"
+      ],
+      "coverObjectKey": "articles/mindful-drinking-practice/cover/mindful-drinking-practice-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mindful-drinking-practice/images/mindful-drinking-practice-steps.png"
+      ]
+    },
+    {
       "title": "Mocktail Flavor Personality Quiz Ideas",
       "slug": "mocktail-flavor-personality-quiz",
       "status": "published",
@@ -32,6 +214,34 @@
       "coverObjectKey": "articles/mocktail-flavor-personality-quiz/cover/mocktail-flavor-personality-quiz-cover.png",
       "inlineImageObjectKeys": [
         "articles/mocktail-flavor-personality-quiz/images/mocktail-flavor-personality-quiz-steps.png"
+      ]
+    },
+    {
+      "title": "Mocktail Food Pairing Guide for Easy Hosting",
+      "slug": "mocktail-food-pairing-guide",
+      "status": "published",
+      "categorySlug": "flavor-guides",
+      "tagSlugs": [
+        "citrus",
+        "classic"
+      ],
+      "coverObjectKey": "articles/mocktail-food-pairing-guide/cover/mocktail-food-pairing-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mocktail-food-pairing-guide/images/mocktail-food-pairing-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Mocktail Gift Set Guide for Thoughtful Giving",
+      "slug": "mocktail-gift-set-guide",
+      "status": "published",
+      "categorySlug": "collections",
+      "tagSlugs": [
+        "party-drinks",
+        "classic"
+      ],
+      "coverObjectKey": "articles/mocktail-gift-set-guide/cover/mocktail-gift-set-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mocktail-gift-set-guide/images/mocktail-gift-set-guide-steps.png"
       ]
     },
     {
@@ -63,6 +273,90 @@
       ]
     },
     {
+      "title": "Mocktail vs Juice: What Is the Difference?",
+      "slug": "mocktail-vs-juice",
+      "status": "published",
+      "categorySlug": "essentials",
+      "tagSlugs": [
+        "classic",
+        "healthy"
+      ],
+      "coverObjectKey": "articles/mocktail-vs-juice/cover/mocktail-vs-juice-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mocktail-vs-juice/images/mocktail-vs-juice-steps.png"
+      ]
+    },
+    {
+      "title": "Peach Bellini Mocktail With Sparkling Tea",
+      "slug": "peach-bellini-mocktail",
+      "status": "published",
+      "categorySlug": "recipes",
+      "tagSlugs": [
+        "refreshing",
+        "classic"
+      ],
+      "coverObjectKey": "articles/peach-bellini-mocktail/cover/peach-bellini-mocktail-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/peach-bellini-mocktail/images/peach-bellini-mocktail-steps.png"
+      ]
+    },
+    {
+      "title": "Pink Drink Copycat With Coconut and Strawberries",
+      "slug": "pink-drink-copycat",
+      "status": "published",
+      "categorySlug": "recipes",
+      "tagSlugs": [
+        "refreshing",
+        "classic"
+      ],
+      "coverObjectKey": "articles/pink-drink-copycat/cover/pink-drink-copycat-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/pink-drink-copycat/images/pink-drink-copycat-steps.png"
+      ]
+    },
+    {
+      "title": "Popular Mocktail Types to Try at Home",
+      "slug": "popular-mocktail-types",
+      "status": "published",
+      "categorySlug": "essentials",
+      "tagSlugs": [
+        "classic",
+        "healthy"
+      ],
+      "coverObjectKey": "articles/popular-mocktail-types/cover/popular-mocktail-types-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/popular-mocktail-types/images/popular-mocktail-types-steps.png"
+      ]
+    },
+    {
+      "title": "Simple Syrup Guide for Better Mocktails",
+      "slug": "simple-syrup-guide",
+      "status": "published",
+      "categorySlug": "flavor-guides",
+      "tagSlugs": [
+        "citrus",
+        "classic"
+      ],
+      "coverObjectKey": "articles/simple-syrup-guide/cover/simple-syrup-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/simple-syrup-guide/images/simple-syrup-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Sober Curious Guide for a More Intentional Social Life",
+      "slug": "sober-curious-beginners-guide",
+      "status": "published",
+      "categorySlug": "lifestyle",
+      "tagSlugs": [
+        "healthy",
+        "party-drinks"
+      ],
+      "coverObjectKey": "articles/sober-curious-beginners-guide/cover/sober-curious-beginners-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/sober-curious-beginners-guide/images/sober-curious-beginners-guide-steps.png"
+      ]
+    },
+    {
       "title": "Sober Curious Game Night Ideas That Feel Social",
       "slug": "sober-curious-game-night",
       "status": "published",
@@ -74,6 +368,62 @@
       "coverObjectKey": "articles/sober-curious-game-night/cover/sober-curious-game-night-cover.png",
       "inlineImageObjectKeys": [
         "articles/sober-curious-game-night/images/sober-curious-game-night-steps.png"
+      ]
+    },
+    {
+      "title": "Sober Curious Gift Guide for Celebrations",
+      "slug": "sober-curious-gift-guide",
+      "status": "published",
+      "categorySlug": "collections",
+      "tagSlugs": [
+        "party-drinks",
+        "classic"
+      ],
+      "coverObjectKey": "articles/sober-curious-gift-guide/cover/sober-curious-gift-guide-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/sober-curious-gift-guide/images/sober-curious-gift-guide-steps.png"
+      ]
+    },
+    {
+      "title": "Virgin Mojito With Fresh Mint and Lime",
+      "slug": "virgin-mojito",
+      "status": "published",
+      "categorySlug": "recipes",
+      "tagSlugs": [
+        "refreshing",
+        "classic"
+      ],
+      "coverObjectKey": "articles/virgin-mojito/cover/virgin-mojito-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/virgin-mojito/images/virgin-mojito-steps.png"
+      ]
+    },
+    {
+      "title": "50 Kind Ways to Decline a Drink",
+      "slug": "ways-to-decline-a-drink",
+      "status": "published",
+      "categorySlug": "lifestyle",
+      "tagSlugs": [
+        "healthy",
+        "party-drinks"
+      ],
+      "coverObjectKey": "articles/ways-to-decline-a-drink/cover/ways-to-decline-a-drink-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/ways-to-decline-a-drink/images/ways-to-decline-a-drink-steps.png"
+      ]
+    },
+    {
+      "title": "What Is a Mocktail? A Clear Beginner Answer",
+      "slug": "what-is-a-mocktail",
+      "status": "published",
+      "categorySlug": "essentials",
+      "tagSlugs": [
+        "classic",
+        "healthy"
+      ],
+      "coverObjectKey": "articles/what-is-a-mocktail/cover/what-is-a-mocktail-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/what-is-a-mocktail/images/what-is-a-mocktail-steps.png"
       ]
     }
   ],
@@ -87,11 +437,131 @@
       ]
     },
     {
+      "slug": "alcohol-free-hosting-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'alcohol-free-hosting-guide'); DELETE FROM articles WHERE slug = 'alcohol-free-hosting-guide';",
+      "r2ObjectKeys": [
+        "articles/alcohol-free-hosting-guide/cover/alcohol-free-hosting-guide-cover.png",
+        "articles/alcohol-free-hosting-guide/images/alcohol-free-hosting-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "are-mocktails-healthy",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'are-mocktails-healthy'); DELETE FROM articles WHERE slug = 'are-mocktails-healthy';",
+      "r2ObjectKeys": [
+        "articles/are-mocktails-healthy/cover/are-mocktails-healthy-cover.png",
+        "articles/are-mocktails-healthy/images/are-mocktails-healthy-steps.png"
+      ]
+    },
+    {
+      "slug": "beginner-mocktail-tools",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'beginner-mocktail-tools'); DELETE FROM articles WHERE slug = 'beginner-mocktail-tools';",
+      "r2ObjectKeys": [
+        "articles/beginner-mocktail-tools/cover/beginner-mocktail-tools-cover.png",
+        "articles/beginner-mocktail-tools/images/beginner-mocktail-tools-steps.png"
+      ]
+    },
+    {
+      "slug": "blender-buying-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'blender-buying-guide'); DELETE FROM articles WHERE slug = 'blender-buying-guide';",
+      "r2ObjectKeys": [
+        "articles/blender-buying-guide/cover/blender-buying-guide-cover.png",
+        "articles/blender-buying-guide/images/blender-buying-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "building-sober-curious-routines",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'building-sober-curious-routines'); DELETE FROM articles WHERE slug = 'building-sober-curious-routines';",
+      "r2ObjectKeys": [
+        "articles/building-sober-curious-routines/cover/building-sober-curious-routines-cover.png",
+        "articles/building-sober-curious-routines/images/building-sober-curious-routines-steps.png"
+      ]
+    },
+    {
+      "slug": "classic-mocktail-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'classic-mocktail-guide'); DELETE FROM articles WHERE slug = 'classic-mocktail-guide';",
+      "r2ObjectKeys": [
+        "articles/classic-mocktail-guide/cover/classic-mocktail-guide-cover.png",
+        "articles/classic-mocktail-guide/images/classic-mocktail-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "coffee-shop-copycat-drink-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'coffee-shop-copycat-drink-guide'); DELETE FROM articles WHERE slug = 'coffee-shop-copycat-drink-guide';",
+      "r2ObjectKeys": [
+        "articles/coffee-shop-copycat-drink-guide/cover/coffee-shop-copycat-drink-guide-cover.png",
+        "articles/coffee-shop-copycat-drink-guide/images/coffee-shop-copycat-drink-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "coffee-tea-subscription-gift-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'coffee-tea-subscription-gift-guide'); DELETE FROM articles WHERE slug = 'coffee-tea-subscription-gift-guide';",
+      "r2ObjectKeys": [
+        "articles/coffee-tea-subscription-gift-guide/cover/coffee-tea-subscription-gift-guide-cover.png",
+        "articles/coffee-tea-subscription-gift-guide/images/coffee-tea-subscription-gift-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "do-mocktails-have-alcohol",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'do-mocktails-have-alcohol'); DELETE FROM articles WHERE slug = 'do-mocktails-have-alcohol';",
+      "r2ObjectKeys": [
+        "articles/do-mocktails-have-alcohol/cover/do-mocktails-have-alcohol-cover.png",
+        "articles/do-mocktails-have-alcohol/images/do-mocktails-have-alcohol-steps.png"
+      ]
+    },
+    {
+      "slug": "high-protein-berry-smoothie",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'high-protein-berry-smoothie'); DELETE FROM articles WHERE slug = 'high-protein-berry-smoothie';",
+      "r2ObjectKeys": [
+        "articles/high-protein-berry-smoothie/cover/high-protein-berry-smoothie-cover.png",
+        "articles/high-protein-berry-smoothie/images/high-protein-berry-smoothie-steps.png"
+      ]
+    },
+    {
+      "slug": "juicer-buying-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'juicer-buying-guide'); DELETE FROM articles WHERE slug = 'juicer-buying-guide';",
+      "r2ObjectKeys": [
+        "articles/juicer-buying-guide/cover/juicer-buying-guide-cover.png",
+        "articles/juicer-buying-guide/images/juicer-buying-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "midnight-millionaire-mocktail",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'midnight-millionaire-mocktail'); DELETE FROM articles WHERE slug = 'midnight-millionaire-mocktail';",
+      "r2ObjectKeys": [
+        "articles/midnight-millionaire-mocktail/cover/midnight-millionaire-mocktail-cover.png",
+        "articles/midnight-millionaire-mocktail/images/midnight-millionaire-mocktail-steps.png"
+      ]
+    },
+    {
+      "slug": "mindful-drinking-practice",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mindful-drinking-practice'); DELETE FROM articles WHERE slug = 'mindful-drinking-practice';",
+      "r2ObjectKeys": [
+        "articles/mindful-drinking-practice/cover/mindful-drinking-practice-cover.png",
+        "articles/mindful-drinking-practice/images/mindful-drinking-practice-steps.png"
+      ]
+    },
+    {
       "slug": "mocktail-flavor-personality-quiz",
       "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-flavor-personality-quiz'); DELETE FROM articles WHERE slug = 'mocktail-flavor-personality-quiz';",
       "r2ObjectKeys": [
         "articles/mocktail-flavor-personality-quiz/cover/mocktail-flavor-personality-quiz-cover.png",
         "articles/mocktail-flavor-personality-quiz/images/mocktail-flavor-personality-quiz-steps.png"
+      ]
+    },
+    {
+      "slug": "mocktail-food-pairing-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-food-pairing-guide'); DELETE FROM articles WHERE slug = 'mocktail-food-pairing-guide';",
+      "r2ObjectKeys": [
+        "articles/mocktail-food-pairing-guide/cover/mocktail-food-pairing-guide-cover.png",
+        "articles/mocktail-food-pairing-guide/images/mocktail-food-pairing-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "mocktail-gift-set-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-gift-set-guide'); DELETE FROM articles WHERE slug = 'mocktail-gift-set-guide';",
+      "r2ObjectKeys": [
+        "articles/mocktail-gift-set-guide/cover/mocktail-gift-set-guide-cover.png",
+        "articles/mocktail-gift-set-guide/images/mocktail-gift-set-guide-steps.png"
       ]
     },
     {
@@ -111,11 +581,91 @@
       ]
     },
     {
+      "slug": "mocktail-vs-juice",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-vs-juice'); DELETE FROM articles WHERE slug = 'mocktail-vs-juice';",
+      "r2ObjectKeys": [
+        "articles/mocktail-vs-juice/cover/mocktail-vs-juice-cover.png",
+        "articles/mocktail-vs-juice/images/mocktail-vs-juice-steps.png"
+      ]
+    },
+    {
+      "slug": "peach-bellini-mocktail",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'peach-bellini-mocktail'); DELETE FROM articles WHERE slug = 'peach-bellini-mocktail';",
+      "r2ObjectKeys": [
+        "articles/peach-bellini-mocktail/cover/peach-bellini-mocktail-cover.png",
+        "articles/peach-bellini-mocktail/images/peach-bellini-mocktail-steps.png"
+      ]
+    },
+    {
+      "slug": "pink-drink-copycat",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'pink-drink-copycat'); DELETE FROM articles WHERE slug = 'pink-drink-copycat';",
+      "r2ObjectKeys": [
+        "articles/pink-drink-copycat/cover/pink-drink-copycat-cover.png",
+        "articles/pink-drink-copycat/images/pink-drink-copycat-steps.png"
+      ]
+    },
+    {
+      "slug": "popular-mocktail-types",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'popular-mocktail-types'); DELETE FROM articles WHERE slug = 'popular-mocktail-types';",
+      "r2ObjectKeys": [
+        "articles/popular-mocktail-types/cover/popular-mocktail-types-cover.png",
+        "articles/popular-mocktail-types/images/popular-mocktail-types-steps.png"
+      ]
+    },
+    {
+      "slug": "simple-syrup-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'simple-syrup-guide'); DELETE FROM articles WHERE slug = 'simple-syrup-guide';",
+      "r2ObjectKeys": [
+        "articles/simple-syrup-guide/cover/simple-syrup-guide-cover.png",
+        "articles/simple-syrup-guide/images/simple-syrup-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "sober-curious-beginners-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'sober-curious-beginners-guide'); DELETE FROM articles WHERE slug = 'sober-curious-beginners-guide';",
+      "r2ObjectKeys": [
+        "articles/sober-curious-beginners-guide/cover/sober-curious-beginners-guide-cover.png",
+        "articles/sober-curious-beginners-guide/images/sober-curious-beginners-guide-steps.png"
+      ]
+    },
+    {
       "slug": "sober-curious-game-night",
       "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'sober-curious-game-night'); DELETE FROM articles WHERE slug = 'sober-curious-game-night';",
       "r2ObjectKeys": [
         "articles/sober-curious-game-night/cover/sober-curious-game-night-cover.png",
         "articles/sober-curious-game-night/images/sober-curious-game-night-steps.png"
+      ]
+    },
+    {
+      "slug": "sober-curious-gift-guide",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'sober-curious-gift-guide'); DELETE FROM articles WHERE slug = 'sober-curious-gift-guide';",
+      "r2ObjectKeys": [
+        "articles/sober-curious-gift-guide/cover/sober-curious-gift-guide-cover.png",
+        "articles/sober-curious-gift-guide/images/sober-curious-gift-guide-steps.png"
+      ]
+    },
+    {
+      "slug": "virgin-mojito",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'virgin-mojito'); DELETE FROM articles WHERE slug = 'virgin-mojito';",
+      "r2ObjectKeys": [
+        "articles/virgin-mojito/cover/virgin-mojito-cover.png",
+        "articles/virgin-mojito/images/virgin-mojito-steps.png"
+      ]
+    },
+    {
+      "slug": "ways-to-decline-a-drink",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'ways-to-decline-a-drink'); DELETE FROM articles WHERE slug = 'ways-to-decline-a-drink';",
+      "r2ObjectKeys": [
+        "articles/ways-to-decline-a-drink/cover/ways-to-decline-a-drink-cover.png",
+        "articles/ways-to-decline-a-drink/images/ways-to-decline-a-drink-steps.png"
+      ]
+    },
+    {
+      "slug": "what-is-a-mocktail",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'what-is-a-mocktail'); DELETE FROM articles WHERE slug = 'what-is-a-mocktail';",
+      "r2ObjectKeys": [
+        "articles/what-is-a-mocktail/cover/what-is-a-mocktail-cover.png",
+        "articles/what-is-a-mocktail/images/what-is-a-mocktail-steps.png"
       ]
     }
   ]

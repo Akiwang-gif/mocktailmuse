@@ -5,7 +5,7 @@ summary: "This mocktail gift set guide for thoughtful giving is designed to help
 categorySlug: collections
 tags: ["party-drinks", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-07-07T00:00:00.000Z
 cover: images/mocktail-gift-set-guide-cover.png
 seoTitle: "Mocktail Gift Set Guide for Thoughtful Giving"
 seoDescription: "This mocktail gift set guide for thoughtful giving is designed to help readers buy with purpose. A useful purchase solves a recurring problem, fits the available space, and feels easy enough to use on an ordinary week..."

@@ -5,7 +5,7 @@ summary: "This pink drink copycat with coconut and strawberries is built for a r
 categorySlug: recipes
 tags: ["refreshing", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-07-02T00:00:00.000Z
 cover: images/pink-drink-copycat-cover.png
 seoTitle: "Pink Drink Copycat With Coconut and Strawberries"
 seoDescription: "This pink drink copycat with coconut and strawberries is built for a real home kitchen: a short ingredient list, a clear method, and enough flexibility to make the drink feel personal. The goal is a glass that looks i..."

@@ -5,7 +5,7 @@ summary: "This peach bellini mocktail with sparkling tea is built for a real hom
 categorySlug: recipes
 tags: ["refreshing", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-22T00:00:00.000Z
 cover: images/peach-bellini-mocktail-cover.png
 seoTitle: "Peach Bellini Mocktail With Sparkling Tea"
 seoDescription: "This peach bellini mocktail with sparkling tea is built for a real home kitchen: a short ingredient list, a clear method, and enough flexibility to make the drink feel personal. The goal is a glass that looks inviting..."

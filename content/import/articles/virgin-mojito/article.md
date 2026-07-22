@@ -5,7 +5,7 @@ summary: "This virgin mojito with fresh mint and lime is built for a real home k
 categorySlug: recipes
 tags: ["refreshing", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-07-13T00:00:00.000Z
 cover: images/virgin-mojito-cover.png
 seoTitle: "Virgin Mojito With Fresh Mint and Lime"
 seoDescription: "This virgin mojito with fresh mint and lime is built for a real home kitchen: a short ingredient list, a clear method, and enough flexibility to make the drink feel personal. The goal is a glass that looks inviting wh..."

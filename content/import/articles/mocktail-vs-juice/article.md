@@ -5,7 +5,7 @@ summary: "This mocktail vs juice: what is the difference? answers a basic questi
 categorySlug: essentials
 tags: ["classic", "healthy"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-29T00:00:00.000Z
 cover: images/mocktail-vs-juice-cover.png
 seoTitle: "Mocktail vs Juice: What Is the Difference?"
 seoDescription: "This mocktail vs juice: what is the difference? answers a basic question without making the topic feel basic. Clear language matters in alcohol-free drinks, where labels, menus, and social expectations can mean differ..."

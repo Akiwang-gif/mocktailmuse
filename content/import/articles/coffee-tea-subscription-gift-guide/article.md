@@ -5,7 +5,7 @@ summary: "This coffee and tea subscription gift guide is designed to help reader
 categorySlug: collections
 tags: ["party-drinks", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-16T00:00:00.000Z
 cover: images/coffee-tea-subscription-gift-guide-cover.png
 seoTitle: "Coffee and Tea Subscription Gift Guide"
 seoDescription: "This coffee and tea subscription gift guide is designed to help readers buy with purpose. A useful purchase solves a recurring problem, fits the available space, and feels easy enough to use on an ordinary weekday. A..."

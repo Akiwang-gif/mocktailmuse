@@ -5,7 +5,7 @@ summary: "This juicer buying guide for fresh citrus drinks is designed to help r
 categorySlug: collections
 tags: ["party-drinks", "classic"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-06-27T00:00:00.000Z
 cover: images/juicer-buying-guide-cover.png
 seoTitle: "Juicer Buying Guide for Fresh Citrus Drinks"
 seoDescription: "This juicer buying guide for fresh citrus drinks is designed to help readers buy with purpose. A useful purchase solves a recurring problem, fits the available space, and feels easy enough to use on an ordinary weekda..."

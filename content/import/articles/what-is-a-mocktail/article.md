@@ -5,7 +5,7 @@ summary: "This what is a mocktail? a clear beginner answer answers a basic quest
 categorySlug: essentials
 tags: ["classic", "healthy"]
 status: published
-publishedAt: 2026-07-14T00:00:00.000Z
+publishedAt: 2026-07-20T00:00:00.000Z
 cover: images/what-is-a-mocktail-cover.png
 seoTitle: "What Is a Mocktail? A Clear Beginner Answer"
 seoDescription: "This what is a mocktail? a clear beginner answer answers a basic question without making the topic feel basic. Clear language matters in alcohol-free drinks, where labels, menus, and social expectations can mean diffe..."
