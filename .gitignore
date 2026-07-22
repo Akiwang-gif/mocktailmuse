@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+
+# OpenNext / Cloudflare build output
+.open-next/
+.wrangler/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+.codex-dev-server.err.log
+.codex-dev-server.log
+
+# TypeScript cache
+tsconfig.tsbuildinfo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local temporary data
+*.sqlite
+*.sqlite3
+
+# Temporary outputs
+outputs/

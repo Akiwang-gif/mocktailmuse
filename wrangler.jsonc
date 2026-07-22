@@ -1,0 +1,31 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "mocktailmuse",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-06-30",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS",
+		"run_worker_first": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "mocktailmuse-db",
+			"database_id": "28fb927e-1099-4991-9274-aef26482946e"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "MEDIA_BUCKET",
+			"bucket_name": "mocktailmuse-media"
+		}
+	],
+	"vars": {
+		"NEXT_PUBLIC_SITE_URL": "https://mocktailmuse.club",
+		"R2_PUBLIC_BASE_URL": "https://mocktailmuse.club/media"
+	}
+}

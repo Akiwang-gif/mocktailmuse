@@ -1,0 +1,81 @@
+import type { CSSProperties } from "react";
+
+export const themeConfig = {
+  colors: {
+    ink: "#102A43",
+    inkSoft: "#5D718A",
+    paper: "#F5F7FA",
+    surface: "#ffffff",
+    line: "#D9E2EC",
+    lineDark: "#5D718A",
+    accent: "#0D2747",
+    accentDark: "#071A30",
+    cyan: "#DCE5EF",
+    violet: "#5D718A",
+    green: "#2E6F74",
+    purple: "#364F6B",
+    orange: "#8BA6C1",
+    blue: "#0D2747",
+    muted: "#5D718A",
+  },
+  gradients: {
+    glow: "linear-gradient(135deg, #0D2747 0%, #5D718A 56%, #DCE5EF 100%)",
+    soft: "linear-gradient(135deg, rgba(13, 39, 71, 0.1), rgba(93, 113, 138, 0.12), rgba(220, 229, 239, 0.36))",
+    card: "linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(245, 247, 250, 0.92))",
+  },
+  shadows: {
+    card: "0 18px 42px rgba(13, 39, 71, 0.09)",
+    cardHover: "0 24px 58px rgba(13, 39, 71, 0.16)",
+  },
+  radius: "16px",
+  typography: {
+    sans: 'Inter, "Avenir Next", "Helvetica Neue", Arial, sans-serif',
+    display: 'var(--mocktail-instrument-serif), "Bodoni 72", "Didot", "Iowan Old Style", Georgia, serif',
+    headingWeight: "400",
+  },
+} as const;
+
+type ThemeStyle = CSSProperties & Record<`--${string}`, string>;
+
+export function themeCssVariables(): ThemeStyle {
+  return {
+    "--ink": themeConfig.colors.ink,
+    "--ink-soft": themeConfig.colors.inkSoft,
+    "--paper": themeConfig.colors.paper,
+    "--surface": themeConfig.colors.surface,
+    "--line": themeConfig.colors.line,
+    "--line-dark": themeConfig.colors.lineDark,
+    "--accent": themeConfig.colors.accent,
+    "--accent-dark": themeConfig.colors.accentDark,
+    "--cyan": themeConfig.colors.cyan,
+    "--violet": themeConfig.colors.violet,
+    "--green": themeConfig.colors.green,
+    "--purple": themeConfig.colors.purple,
+    "--orange": themeConfig.colors.orange,
+    "--blue": themeConfig.colors.blue,
+    "--muted": themeConfig.colors.muted,
+    "--glow-gradient": themeConfig.gradients.glow,
+    "--soft-gradient": themeConfig.gradients.soft,
+    "--card-gradient": themeConfig.gradients.card,
+    "--card-shadow": themeConfig.shadows.card,
+    "--card-shadow-hover": themeConfig.shadows.cardHover,
+    "--radius": themeConfig.radius,
+    "--font-sans": themeConfig.typography.sans,
+    "--font-display": themeConfig.typography.display,
+    "--homerio-paper": themeConfig.colors.paper,
+    "--homerio-surface": themeConfig.colors.surface,
+    "--homerio-ink": themeConfig.colors.ink,
+    "--homerio-ink-soft": themeConfig.colors.inkSoft,
+    "--homerio-muted": themeConfig.colors.muted,
+    "--homerio-accent": themeConfig.colors.accent,
+    "--homerio-accent-dark": themeConfig.colors.accentDark,
+    "--homerio-line": themeConfig.colors.line,
+    "--homerio-line-dark": themeConfig.colors.lineDark,
+    "--homerio-font-sans": themeConfig.typography.sans,
+    "--homerio-font-display": themeConfig.typography.display,
+    "--homerio-heading-weight": themeConfig.typography.headingWeight,
+    "--homerio-card-shadow": themeConfig.shadows.card,
+    "--homerio-card-shadow-hover": themeConfig.shadows.cardHover,
+    "--homerio-focus-ring": "0 0 0 3px rgba(13, 39, 71, 0.24)",
+  };
+}

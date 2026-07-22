@@ -1,0 +1,15 @@
+{
+  "name": "ContentForge",
+  "type": "framework",
+  "capabilities": [
+    "cms",
+    "article-system",
+    "d1",
+    "r2",
+    "seo",
+    "rss",
+    "github-actions-deployment",
+    "doctor",
+    "import-tools"
+  ]
+}
