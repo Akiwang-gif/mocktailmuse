@@ -1,0 +1,39 @@
+:root {
+  /* Colors */
+  --homerio-paper: #f7f2ea;
+  --homerio-surface: #fffaf3;
+  --homerio-ink: #24211d;
+  --homerio-ink-soft: #514a42;
+  --homerio-muted: #81786c;
+  --homerio-accent: #b7784b;
+  --homerio-accent-dark: #74452e;
+  --homerio-line: #e2d6c8;
+  --homerio-line-dark: #c4b39f;
+
+  /* Typography */
+  --homerio-font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --homerio-font-display: Georgia, "Times New Roman", serif;
+  --homerio-heading-weight: 700;
+  --homerio-title-line-height: 1.05;
+  --homerio-meta-size: 0.78rem;
+  --homerio-body-line-height: 1.7;
+
+  /* Spacing */
+  --homerio-container-max: 1180px;
+  --homerio-container-padding-x: clamp(1rem, 3vw, 2rem);
+  --homerio-section-gap: clamp(2.5rem, 6vw, 5rem);
+  --homerio-grid-gap: clamp(1rem, 2vw, 1.5rem);
+  --homerio-card-gap: 1rem;
+  --homerio-copy-gap: 0.65rem;
+
+  /* Radius */
+  --homerio-radius-base: 8px;
+  --homerio-radius-pill: 999px;
+
+  /* Shadow */
+  --homerio-card-shadow: 0 16px 40px rgb(36 33 29 / 8%);
+  --homerio-card-shadow-hover: 0 20px 48px rgb(36 33 29 / 12%);
+
+  /* Focus */
+  --homerio-focus-ring: 0 0 0 3px rgb(183 120 75 / 28%);
+}

@@ -1,0 +1,17 @@
+.site-shell {
+  min-height: 100vh;
+  background: var(--homerio-paper);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 28px clamp(20px, 4.6vw, 72px) 64px;
+}
+
+.newspaper-home {
+  display: grid;
+  gap: clamp(72px, 8vw, 118px);
+  padding-top: clamp(44px, 6vw, 72px);
+  padding-bottom: clamp(76px, 9vw, 124px);
+}
