@@ -8,7 +8,10 @@ interface RouteContext {
 }
 
 function isValidMediaKey(key: string) {
-  return /^(body|covers)\/\d{4}\/\d{2}\/[0-9a-f-]+\.(jpe?g|png|webp)$/.test(key);
+  return (
+    /^(body|covers)\/\d{4}\/\d{2}\/[0-9a-f-]+\.(jpe?g|png|webp)$/.test(key) ||
+    /^articles\/[a-z0-9]+(?:-[a-z0-9]+)*\/(cover|images)\/[a-z0-9]+(?:-[a-z0-9]+)*\.(jpe?g|png|webp)$/.test(key)
+  );
 }
 
 async function getMediaBucket() {

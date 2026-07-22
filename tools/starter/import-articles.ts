@@ -423,18 +423,17 @@ function buildExecutionSteps(articles: ArticleCandidate[]): ImportStep[] {
 
 function buildArticleSql(article: ArticleCandidate, r2PublicBaseUrl: string) {
   const now = new Date().toISOString();
-  const coverUrl = article.coverPath ? `${r2PublicBaseUrl.replace(/\/$/, "")}/${objectKey(article.frontmatter.slug, article.coverPath, "cover")}` : "";
-  const bodyHtml = markdownToHtml(article.bodyMarkdown, article.frontmatter.slug, r2PublicBaseUrl);
+  const mediaBaseUrl = "/media";
+  const coverUrl = article.coverPath ? `${mediaBaseUrl}/${objectKey(article.frontmatter.slug, article.coverPath, "cover")}` : "";
+  const bodyHtml = markdownToHtml(article.bodyMarkdown, article.frontmatter.slug, mediaBaseUrl);
   const publishedAt = article.frontmatter.status === "published" ? article.frontmatter.publishedAt || now : null;
   const tagValues = article.frontmatter.tags.map((tag) => `'${sqlString(tag)}'`).join(",");
 
   return [
-    "BEGIN TRANSACTION;",
     `INSERT INTO articles (title, slug, summary, body_html, cover_url, category_id, status, is_featured, is_pinned, sort_order, view_count, published_at, created_at, updated_at, seo_title, seo_description)`,
     `SELECT '${sqlString(article.frontmatter.title)}', '${sqlString(article.frontmatter.slug)}', '${sqlString(article.frontmatter.summary)}', '${sqlString(bodyHtml)}', '${sqlString(coverUrl)}', categories.id, '${article.frontmatter.status}', ${article.frontmatter.isFeatured ? 1 : 0}, ${article.frontmatter.isPinned ? 1 : 0}, COALESCE((SELECT MAX(sort_order) FROM articles), 0) + 1, 0, ${publishedAt ? `'${sqlString(publishedAt)}'` : "NULL"}, '${now}', '${now}', ${nullableSql(article.frontmatter.seoTitle)}, ${nullableSql(article.frontmatter.seoDescription)}`,
     `FROM categories WHERE categories.slug = '${sqlString(article.frontmatter.categorySlug)}' AND NOT EXISTS (SELECT 1 FROM articles WHERE slug = '${sqlString(article.frontmatter.slug)}');`,
     tagValues ? `INSERT OR IGNORE INTO article_tags (article_id, tag_id) SELECT articles.id, tags.id FROM articles JOIN tags ON tags.slug IN (${tagValues}) WHERE articles.slug = '${sqlString(article.frontmatter.slug)}';` : "",
-    "COMMIT;",
   ]
     .filter(Boolean)
     .join(" ");

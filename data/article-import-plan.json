@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-07-22T08:30:06.217Z",
+  "dryRun": false,
+  "sourceDir": "E:\\MocktailMuse\\content\\import\\batches\\experiences",
+  "databaseName": "mocktailmuse-db",
+  "bucketName": "mocktailmuse-media",
+  "r2PublicBaseUrl": "https://mocktailmuse.club/media",
+  "articles": [
+    {
+      "title": "Alcohol Free Celebration Ideas for Any Milestone",
+      "slug": "alcohol-free-celebration-ideas",
+      "status": "published",
+      "categorySlug": "experiences",
+      "tagSlugs": [
+        "party-drinks",
+        "refreshing"
+      ],
+      "coverObjectKey": "articles/alcohol-free-celebration-ideas/cover/alcohol-free-celebration-ideas-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/alcohol-free-celebration-ideas/images/alcohol-free-celebration-ideas-steps.png"
+      ]
+    },
+    {
+      "title": "Mocktail Flavor Personality Quiz Ideas",
+      "slug": "mocktail-flavor-personality-quiz",
+      "status": "published",
+      "categorySlug": "experiences",
+      "tagSlugs": [
+        "party-drinks",
+        "refreshing"
+      ],
+      "coverObjectKey": "articles/mocktail-flavor-personality-quiz/cover/mocktail-flavor-personality-quiz-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mocktail-flavor-personality-quiz/images/mocktail-flavor-personality-quiz-steps.png"
+      ]
+    },
+    {
+      "title": "Mocktail Meme Ideas for Lighthearted Sharing",
+      "slug": "mocktail-meme-ideas",
+      "status": "published",
+      "categorySlug": "experiences",
+      "tagSlugs": [
+        "party-drinks",
+        "refreshing"
+      ],
+      "coverObjectKey": "articles/mocktail-meme-ideas/cover/mocktail-meme-ideas-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mocktail-meme-ideas/images/mocktail-meme-ideas-steps.png"
+      ]
+    },
+    {
+      "title": "Mocktail Party Caption Ideas for Sharing",
+      "slug": "mocktail-party-caption-ideas",
+      "status": "published",
+      "categorySlug": "experiences",
+      "tagSlugs": [
+        "party-drinks",
+        "refreshing"
+      ],
+      "coverObjectKey": "articles/mocktail-party-caption-ideas/cover/mocktail-party-caption-ideas-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/mocktail-party-caption-ideas/images/mocktail-party-caption-ideas-steps.png"
+      ]
+    },
+    {
+      "title": "Sober Curious Game Night Ideas That Feel Social",
+      "slug": "sober-curious-game-night",
+      "status": "published",
+      "categorySlug": "experiences",
+      "tagSlugs": [
+        "party-drinks",
+        "refreshing"
+      ],
+      "coverObjectKey": "articles/sober-curious-game-night/cover/sober-curious-game-night-cover.png",
+      "inlineImageObjectKeys": [
+        "articles/sober-curious-game-night/images/sober-curious-game-night-steps.png"
+      ]
+    }
+  ],
+  "rollback": [
+    {
+      "slug": "alcohol-free-celebration-ideas",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'alcohol-free-celebration-ideas'); DELETE FROM articles WHERE slug = 'alcohol-free-celebration-ideas';",
+      "r2ObjectKeys": [
+        "articles/alcohol-free-celebration-ideas/cover/alcohol-free-celebration-ideas-cover.png",
+        "articles/alcohol-free-celebration-ideas/images/alcohol-free-celebration-ideas-steps.png"
+      ]
+    },
+    {
+      "slug": "mocktail-flavor-personality-quiz",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-flavor-personality-quiz'); DELETE FROM articles WHERE slug = 'mocktail-flavor-personality-quiz';",
+      "r2ObjectKeys": [
+        "articles/mocktail-flavor-personality-quiz/cover/mocktail-flavor-personality-quiz-cover.png",
+        "articles/mocktail-flavor-personality-quiz/images/mocktail-flavor-personality-quiz-steps.png"
+      ]
+    },
+    {
+      "slug": "mocktail-meme-ideas",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-meme-ideas'); DELETE FROM articles WHERE slug = 'mocktail-meme-ideas';",
+      "r2ObjectKeys": [
+        "articles/mocktail-meme-ideas/cover/mocktail-meme-ideas-cover.png",
+        "articles/mocktail-meme-ideas/images/mocktail-meme-ideas-steps.png"
+      ]
+    },
+    {
+      "slug": "mocktail-party-caption-ideas",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'mocktail-party-caption-ideas'); DELETE FROM articles WHERE slug = 'mocktail-party-caption-ideas';",
+      "r2ObjectKeys": [
+        "articles/mocktail-party-caption-ideas/cover/mocktail-party-caption-ideas-cover.png",
+        "articles/mocktail-party-caption-ideas/images/mocktail-party-caption-ideas-steps.png"
+      ]
+    },
+    {
+      "slug": "sober-curious-game-night",
+      "d1Sql": "DELETE FROM article_tags WHERE article_id IN (SELECT id FROM articles WHERE slug = 'sober-curious-game-night'); DELETE FROM articles WHERE slug = 'sober-curious-game-night';",
+      "r2ObjectKeys": [
+        "articles/sober-curious-game-night/cover/sober-curious-game-night-cover.png",
+        "articles/sober-curious-game-night/images/sober-curious-game-night-steps.png"
+      ]
+    }
+  ]
+}
