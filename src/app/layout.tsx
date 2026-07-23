@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
 import "@contentforge/theme-homerio/styles/index.css";
+import "./globals.css";
 import { themeCssVariables } from "@/config/theme.config";
 import { getSiteIdentitySettings } from "@/db/repositories/site-settings";
 import { canonicalUrl, getSiteUrl } from "@/lib/seo";
