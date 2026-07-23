@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Script from "next/script";
 import "@contentforge/theme-homerio/styles/index.css";
 import "./globals.css";
 import { themeCssVariables } from "@/config/theme.config";
@@ -105,6 +106,18 @@ export default function RootLayout({
     <html lang="en" className={instrumentSerif.variable}>
       <body style={themeCssVariables()}>
         {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TC1P3ZDWEG"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TC1P3ZDWEG');
+          `}
+        </Script>
         <style
           id="mocktail-production-overrides"
           dangerouslySetInnerHTML={{ __html: productionOverrideCss }}
