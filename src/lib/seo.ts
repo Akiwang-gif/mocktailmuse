@@ -108,6 +108,18 @@ export async function buildSeoMetadata({ article, description, image, path, titl
   };
 }
 
+export async function buildStaticSeoMetadata({
+  description,
+  path,
+  title,
+}: Pick<SeoMetadataOptions, "description" | "path" | "title">): Promise<Metadata> {
+  return buildSeoMetadata({
+    title,
+    description,
+    path,
+  });
+}
+
 export async function buildArticleJsonLd(article: ArticleView) {
   const settings = await getSiteIdentitySettings();
   const articleUrl = canonicalUrl(`/news/${article.slug}`);

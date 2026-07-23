@@ -16,7 +16,7 @@ export function HomeSectionHeading({ title, deck, href, linkLabel = "View all", 
   return (
     <div className="home-section-heading">
       <div>
-        <p>{title}</p>
+        <h2>{title}</h2>
         {deck ? <span>{deck}</span> : null}
       </div>
       {href ? (

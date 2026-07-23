@@ -5,6 +5,7 @@ import Link from "next/link";
 export type EditorialArticleCardProps = {
   title: ReactNode;
   href: string;
+  titleLevel?: "h2" | "h3";
   excerpt?: ReactNode;
   image?: {
     src: string;
@@ -26,6 +27,7 @@ export type EditorialArticleCardProps = {
 export function EditorialArticleCard({
   title,
   href,
+  titleLevel = "h2",
   excerpt,
   image,
   category,
@@ -34,6 +36,8 @@ export function EditorialArticleCard({
   author,
   variant = "standard",
 }: EditorialArticleCardProps) {
+  const TitleTag = titleLevel;
+
   return (
     <article className={`editorial-article-card editorial-article-card-${variant}`}>
       {image ? (
@@ -56,7 +60,7 @@ export function EditorialArticleCard({
           </div>
         ) : null}
         <Link href={href}>
-          <h2>{title}</h2>
+          <TitleTag>{title}</TitleTag>
         </Link>
         {author ? <div className="article-byline">{author}</div> : null}
         {excerpt ? <p>{excerpt}</p> : null}

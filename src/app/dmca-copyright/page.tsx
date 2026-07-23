@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { StaticPageLayout } from "@contentforge/theme-homerio/layouts/StaticPageLayout";
 import { getSiteIdentitySettings } from "@/db/repositories/site-settings";
 import { getResolvedLegalConfig } from "@/lib/legal-settings";
+import { buildStaticSeoMetadata } from "@/lib/seo";
 import { adaptStaticPageProps } from "@/theme/v3-page-adapter";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { pages } = await getResolvedLegalConfig();
-  return {
+  return buildStaticSeoMetadata({
     title: pages.dmca.metadataTitle,
     description: pages.dmca.metadataDescription,
-  };
+    path: "/dmca-copyright",
+  });
 }
 
 export default async function DmcaCopyrightPage() {

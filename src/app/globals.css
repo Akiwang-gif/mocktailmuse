@@ -2367,7 +2367,7 @@ body .category-showcase .home-section-heading > div {
   gap: 10px;
 }
 
-body .category-showcase .home-section-heading p {
+body .category-showcase .home-section-heading h2 {
   color: #0d2747;
   font-family: var(--homerio-font-display);
   font-size: clamp(2.7rem, 4.8vw, 5.15rem);
@@ -2564,7 +2564,7 @@ body .featured-articles-section .home-section-heading {
   margin-bottom: clamp(28px, 4vw, 54px);
 }
 
-body .featured-articles-section .home-section-heading p {
+body .featured-articles-section .home-section-heading h2 {
   max-width: 720px;
   color: #0d2747;
   font-family: var(--homerio-font-display);
@@ -2775,7 +2775,7 @@ body .latest-articles-section .home-section-heading {
   margin-bottom: clamp(26px, 3.5vw, 44px);
 }
 
-body .latest-articles-section .home-section-heading p {
+body .latest-articles-section .home-section-heading h2 {
   color: #0d2747;
   font-family: var(--homerio-font-display);
   font-size: clamp(2.4rem, 4.2vw, 4.6rem);
@@ -4548,9 +4548,9 @@ body .home-hero-copy a {
   box-shadow: 0 14px 30px rgba(13, 39, 71, 0.24);
 }
 
-body .category-showcase .home-section-heading p,
-body .featured-articles-section .home-section-heading p,
-body .latest-articles-section .home-section-heading p {
+body .category-showcase .home-section-heading h2,
+body .featured-articles-section .home-section-heading h2,
+body .latest-articles-section .home-section-heading h2 {
   font-family: var(--mocktail-display);
   font-style: italic;
   font-weight: 300;

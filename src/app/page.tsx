@@ -89,6 +89,7 @@ export default async function HomePage() {
     renderArticleCard: (article, context) => (
       <EditorialArticleCard
         title={article.title}
+        titleLevel="h3"
         href={article.href}
         excerpt={context.variant === "compact" ? undefined : article.excerpt}
         image={article.image}

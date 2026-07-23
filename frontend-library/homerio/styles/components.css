@@ -6,7 +6,7 @@
   margin-bottom: clamp(30px, 3.8vw, 48px);
 }
 
-.home-section-heading p {
+.home-section-heading h2 {
   margin: 0;
   color: var(--homerio-ink);
   font-family: var(--homerio-font-display);
