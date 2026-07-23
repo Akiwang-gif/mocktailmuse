@@ -103,13 +103,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={instrumentSerif.variable}>
-      <head>
+      <body style={themeCssVariables()}>
+        {children}
         <style
           id="mocktail-production-overrides"
           dangerouslySetInnerHTML={{ __html: productionOverrideCss }}
         />
-      </head>
-      <body style={themeCssVariables()}>{children}</body>
+      </body>
     </html>
   );
 }
