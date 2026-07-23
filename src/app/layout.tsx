@@ -6,6 +6,25 @@ import { themeCssVariables } from "@/config/theme.config";
 import { getSiteIdentitySettings } from "@/db/repositories/site-settings";
 import { canonicalUrl, getSiteUrl } from "@/lib/seo";
 
+const productionOverrideCss = `
+body .featured-articles-section .editorial-article-card-feature .editorial-article-image{position:relative;overflow:hidden}
+body .featured-articles-section .editorial-article-card-feature .editorial-article-image>span,body .featured-articles-section .editorial-article-card-feature .editorial-article-image img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;object-position:center!important;border-radius:0!important}
+@media (max-width:768px){
+body .home-hero>.site-header{position:absolute!important;top:12px!important;right:14px!important;left:14px!important;width:auto!important;min-height:0!important;margin:0!important;overflow:visible!important;border-radius:28px!important}
+body .home-hero>.site-header .masthead,body .site-header .masthead{display:grid!important;grid-template-columns:42px minmax(0,1fr) 42px!important;align-items:center!important;min-height:56px!important;height:56px!important;padding:0 8px!important}
+body .home-hero>.site-header .nav-bar,body .home-hero>.site-header .nav-links,body .home-hero>.site-header .nav-tools,body .site-header .nav-bar,body .site-header .nav-links,body .site-header .nav-tools{display:none!important}
+body .site-header .site-logo{grid-column:2!important;justify-self:center!important;max-width:100%!important;font-size:clamp(1.35rem,6vw,1.72rem)!important;line-height:1!important;white-space:nowrap!important;overflow:visible!important}
+body .mobile-menu-trigger,body .mobile-search{display:inline-flex!important;width:38px!important;min-width:38px!important;min-height:38px!important;padding:0!important}
+body .category-showcase .home-category-grid,body .home-category-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;margin-top:16px!important}
+body .category-showcase .home-category-card,body .home-category-card,body .category-showcase .home-category-card:nth-child(n+5),body .category-showcase .home-category-card.home-category-card-landscape{min-height:0!important;aspect-ratio:1/1.16!important;overflow:hidden!important;border-radius:16px!important}
+body .category-showcase .home-category-media,body .category-showcase .home-category-card-landscape .home-category-media,body .home-category-media{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;aspect-ratio:auto!important}
+body .category-showcase .home-category-media img,body .home-category-media img{width:100%!important;height:100%!important;object-fit:cover!important}
+body .category-showcase .home-category-copy,body .category-showcase .home-category-content,body .home-category-copy{top:0!important;right:0!important;bottom:auto!important;left:0!important;padding:10px!important}
+body .category-showcase .home-category-copy strong,body .category-showcase .home-category-content strong,body .home-category-copy strong{max-width:100%!important;overflow:hidden!important;color:#0d2747!important;font-size:clamp(.92rem,4.5vw,1.12rem)!important;line-height:1.05!important;letter-spacing:0!important;text-overflow:ellipsis!important}
+body .featured-articles-section .editorial-article-card-feature .editorial-article-image{display:block!important;width:100%!important;min-height:0!important;aspect-ratio:4/3!important;background:transparent!important}
+}
+`;
+
 const instrumentSerif = localFont({
   src: [
     {
@@ -63,6 +82,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={instrumentSerif.variable}>
+      <head>
+        <style
+          id="mocktail-production-overrides"
+          dangerouslySetInnerHTML={{ __html: productionOverrideCss }}
+        />
+      </head>
       <body style={themeCssVariables()}>{children}</body>
     </html>
   );
